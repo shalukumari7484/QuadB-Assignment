@@ -43,6 +43,7 @@ const Todos = (props) => {
         onChange={(e) => handleChange(e)}
         className="todo-input"
         value={todo}
+        placeholder="Add Todo"
       />
 
       <motion.button
